@@ -65,7 +65,8 @@ br {
 
 }
 #form {
-    background-color:rgba(255, 255, 255, 0.25)
+    background-color:rgba(255, 255, 255, 0.25);
+    padding: 15px;
 
 }
 
@@ -105,21 +106,13 @@ br {
     width: 500px;
     display: block;
     margin: auto;
+    margin-bottom: 20px;
 }
 
  .list{
     text-align: left;
     display:inline-block;
     }
-.gifniño{
-        position:absolute;
-        left:1025px;
-        top:500px;
-    }
-.gifmayor{
-        position:absolute;
-        left:925px;
-        top:275px;
-    }
+
 
 
