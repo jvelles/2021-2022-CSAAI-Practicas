@@ -48,7 +48,7 @@ br {
     text-align: center;
 }
 .nacimiento {
-    text-align: center;
+    text-align: justify;
 }
 
 .torres {
@@ -83,20 +83,25 @@ br {
 .block{
     text-align:center;
     }
-    
+.slide {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
  .list{
     text-align: left;
     display:inline-block;
     }
 .gifniño{
         position:absolute;
-        left:100px;
-        top:300px;
+        left:800px;
+        top:550px;
     }
 .gifmayor{
         position:absolute;
-        left:750px;
-        top:300px;
+        left:800px;
+        top:275px;
     }
 
 
