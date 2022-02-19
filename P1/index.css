@@ -89,12 +89,12 @@ br {
     display:inline-block;
     }
 .gifniño{
-        position:responsive;
+        position:absolute;
         left:100px;
         top:300px;
     }
 .gifmayor{
-        position:responsive;
+        position:absolute;
         left:750px;
         top:300px;
     }
