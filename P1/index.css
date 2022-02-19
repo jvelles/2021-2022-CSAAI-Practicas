@@ -1,16 +1,40 @@
 h1 {
     text-align: center;
+    font-family: 'Fuente';
+    color: white;
+}
+right {
+    width:30%;
+    border: 10px double;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: justify top;
+    float: right;
+    color: white;
+}
+/* Fuentes */
+@font-face {
+    font-family: Fuente;
+    src: url(Ancient\ Ad.ttf);
+}
+br {
+    font-size:5px;
+}
+.soy {
+    text-align: center;
+}
+.nacimiento {
+    text-align: center;
 }
 h2 {
     text-align: center;
     color: red;
 }
-p   {
-    text-align: justify; 
-}
 .torres {
     display: block;
     margin: auto;
+    
 }
 .container {
     width: 300px;
@@ -19,8 +43,7 @@ p   {
     background-color : green;
 }
 #cuadro1 {
-    border: 1px solid  red;
-    padding: 5px;
+    
 }
 
 .subtitulo {
@@ -29,6 +52,9 @@ p   {
 }
 body {
     background-image: url(fondo.jpg);
+    display: block;
+    margin: auto;
+    background-size: cover;
 }
 
 
