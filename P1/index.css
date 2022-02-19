@@ -1,8 +1,9 @@
 body {
-    background-image: url(fondo.jpg);
+    background-image: url(fondo2.jpg);
     display: block;
     margin: auto;
-    background-size: cover;
+    background-size: contain;
+    
 }
 h1 {
     text-align: center;
@@ -95,12 +96,12 @@ br {
     }
 .gifniño{
         position:absolute;
-        left:850px;
-        top:550px;
+        left:1025px;
+        top:500px;
     }
 .gifmayor{
         position:absolute;
-        left:850px;
+        left:925px;
         top:275px;
     }
 
