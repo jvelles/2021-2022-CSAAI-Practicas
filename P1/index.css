@@ -1,8 +1,6 @@
 body {
-    background-image: url(fondo2.jpg);
-    display: block;
-    margin: auto;
-    background-size: contain;
+    background-image: url(fondo1.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
@@ -63,6 +61,10 @@ br {
 }
 #nacimiento {
     text-align: center;
+    background-color:rgba(255, 255, 255, 0.25)
+
+}
+#form {
     background-color:rgba(255, 255, 255, 0.25)
 
 }
