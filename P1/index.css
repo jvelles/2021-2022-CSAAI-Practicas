@@ -3,6 +3,7 @@ body {
     display: block;
     margin: auto;
     background-size: contain;
+    background-repeat: no-repeat;
     
 }
 h1 {
@@ -19,6 +20,15 @@ h3{
     color: white;
     text-align: center;
 }
+.tituloizq{
+    
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid white;
+    padding: 5px;
+   
+}
 right {
     width:30%;
     border: 10px double;
@@ -28,6 +38,8 @@ right {
     text-align: justify top;
     float: right;
     color: white;
+    background-color:rgba(0,0,0,0.5)
+    
 }
 left{
     border: 10px double;
@@ -36,6 +48,7 @@ left{
     width: 65%;
     float: right;
     color: white;
+    background-color:rgba(0,0,0,0.5)
 }
 /* Fuentes */
 @font-face {
@@ -48,8 +61,10 @@ br {
 .soy {
     text-align: center;
 }
-.nacimiento {
-    text-align: justify;
+#nacimiento {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.25)
+
 }
 
 .torres {
