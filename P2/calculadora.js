@@ -76,12 +76,16 @@ c.onclick = () => {
 
 // Funcion Borrar lo ultimo
 del.onclick = () => {
-  if (display.innerHTML == "0"){
-    display.innerHTML = "";
-  }else{
+  if (estado == ESTADO.OP1) {
+    display.innerHTML = display.innerHTML.slice(0,-1)
+  }
+  else if (estado == ESTADO.OPERATION) {
+    display.innerHTML = display.innerHTML.slice(0,-1);
+    estado = ESTADO.OP1;
+  }
+  else if (estado == ESTADO.OP2) {
     display.innerHTML = display.innerHTML.slice(0,-1);
   }
-  estado = ESTADO.OP1;
   
 }
 

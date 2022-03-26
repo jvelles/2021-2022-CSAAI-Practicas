@@ -37,7 +37,7 @@ h1{
     height: 60px;
     background-color: rgba(255,255,255);
     color: #ff0000;
-    font-family: Verdana;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 15px 5px 15px 5px;
     font-size: 25px;;
     border: 2px solid black;
@@ -53,7 +53,7 @@ h1{
     font-size: 25px;;
     background-color: rgba(255,255,255);
     color: #ff0000;
-    font-family: Verdana;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 15px 5px 15px 5px;
     border: 2px solid black; 
   }
@@ -69,7 +69,7 @@ h1{
     text-shadow: red 0.05em 0.05em 0.05em;
     background-color: rgba(255,255,255);
     color: #df4a4a;
-    font-family: Verdana;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     font-display: 25px;
     border-radius: 15px 5px 15px 5px;
@@ -80,10 +80,6 @@ h1{
     margin-right: auto;
   }
 
-  #display{
-    vertical-align: text-top;
-  }
-   
   /* Fuentes */
 @font-face {
     font-family: Fuente;
