@@ -1,0 +1,95 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(fondo1.jpg);
+  }
+
+h1{
+    font-family: 'Fuente';
+    color: rgba(255,255,255);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 50px;
+    
+  }
+
+  #estructura{
+    display: block;
+    width: 700px;
+    height: 650px;
+    padding: 10px;
+    border-radius: 20px;
+    margin:auto;
+    margin-bottom: 10px;    
+    float: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 2px solid black;
+  }
+  
+  #equal{
+    width: 160px;
+    height: 60px;
+    font-size: 25px;;
+  }
+  
+  input{
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    background-color: rgba(255,255,255);
+    color: #ff0000;
+    font-family: Verdana;
+    border-radius: 15px 5px 15px 5px;
+    font-size: 25px;;
+    border: 2px solid black;
+  }
+  input:hover {
+    background-color: #d15d5d;
+    color: black;
+  }
+  
+  button{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;;
+    background-color: rgba(255,255,255);
+    color: #ff0000;
+    font-family: Verdana;
+    border-radius: 15px 5px 15px 5px;
+    border: 2px solid black; 
+  }
+  button:hover {
+     background-color: #d15d5d;
+     color: black;
+  }
+  
+  p{
+    width: 400px;
+    height: 45px;
+    border: 2px solid black;
+    text-shadow: red 0.05em 0.05em 0.05em;
+    background-color: rgba(255,255,255);
+    color: #df4a4a;
+    font-family: Verdana;
+    font-size: 30px;
+    font-display: 25px;
+    border-radius: 15px 5px 15px 5px;
+    text-align: center;
+    margin: 30px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #display{
+    vertical-align: text-top;
+  }
+  
+ 
+  
+  
+  /* Fuentes */
+@font-face {
+    font-family: Fuente;
+    src: url(Movement.ttf);
+    
+}
