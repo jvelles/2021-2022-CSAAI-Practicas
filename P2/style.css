@@ -25,7 +25,7 @@ h1{
     border: 2px solid black;
   }
   
-  #equal{
+  #resultado{
     width: 160px;
     height: 60px;
     font-size: 25px;;
@@ -83,10 +83,7 @@ h1{
   #display{
     vertical-align: text-top;
   }
-  
- 
-  
-  
+   
   /* Fuentes */
 @font-face {
     font-family: Fuente;

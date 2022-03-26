@@ -1,17 +1,17 @@
-console.log("Initializing calculator");
+console.log("Iniciando calculadora");
 
 display = document.getElementById("display");
-equal = document.getElementById("equal");
+equal = document.getElementById("resultado");
 del = document.getElementById("del");
 c = document.getElementById("c");
-sqrt = document.getElementById("sqrt");
+sqrt = document.getElementById("raiz");
 
-//-- Digitos y operadores
+// Declaramos Digitos y Operadores
 let digito = document.getElementsByClassName("digito");
 let operacion = document.getElementsByClassName("operacion");
 
 
-//-- Estados de la calculadora
+// Estados 
 const ESTADO = {
  INIT: 0,
  OP1: 1,
@@ -21,7 +21,7 @@ const ESTADO = {
 
  let estado = ESTADO.INIT;
 
- //-- Digitos
+ // Digitos
  for(i=0; i<digito.length; i++){
     digito[i].onclick=(ev)=>{
     digitos(ev.target.value);
@@ -29,7 +29,7 @@ const ESTADO = {
    }
  }
 
- //-- Operadores
+ // Operadores
  for(i=0; i<operacion.length; i++){
     operacion[i].onclick=(ev)=>{
         operaciones(ev.target.value);
@@ -60,21 +60,21 @@ const ESTADO = {
   
 }
 
- // Igual
- equal.onclick = () => {
+ // Funcion Resultado
+ resultado.onclick = () => {
    display.innerHTML = eval(display.innerHTML);
    estado = ESTADO.OP1;
    
  }
 
- // Borrar todo
+ // Funcion Borrar todo
 c.onclick = () => {
   display.innerHTML = "";
   estado = ESTADO.OP1;
 
 }
 
-// Borrar lo ultimo añadido
+// Funcion Borrar lo ultimo
 del.onclick = () => {
   if (display.innerHTML == "0"){
     display.innerHTML = "";
@@ -85,7 +85,7 @@ del.onclick = () => {
   
 }
 
-// Raiz
-sqrt.onclick = () => {
+// Funcion Raiz
+raiz.onclick = () => {
  display.innerHTML = Math.sqrt(display.innerHTML);
 }
