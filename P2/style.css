@@ -31,7 +31,7 @@ h1{
     font-size: 25px;;
   }
   
-  input{
+  #boton{
     margin: auto;
     width: 250px;
     height: 60px;
@@ -42,7 +42,7 @@ h1{
     font-size: 25px;;
     border: 2px solid black;
   }
-  input:hover {
+  #boton:hover {
     background-color: #d15d5d;
     color: black;
   }
