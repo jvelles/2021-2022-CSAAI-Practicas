@@ -1,0 +1,53 @@
+body{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+@font-face{
+    font-family: 'Organic Relief';
+    src: url("Organic Relief.ttf");
+}
+h1{
+    margin-top: -825px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 224, 253);
+    font-family: 'Organic Relief';
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 300px;
+    padding: 15px;
+    margin-left: 800px;
+}
+h2{
+    color: rgb(0, 224, 253);
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+div {
+    background-color: rgba(0, 0, 0, 0.842);
+    font-family: 'Arial';
+    margin-top: 150px;
+    margin-left: 1400px;
+    border-radius: 6px;
+    padding: 20px;
+    width: 300px;
+    position: relative;
+}
+
+canvas {
+    text-align: center;
+    background-color: black;
+    opacity: 0.95;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgba(0, 225, 255, 0.644);
+    border-radius: 10px;
+    margin-left: 650px;
+    margin-top: 250px;
+    padding: 5px;
+}
