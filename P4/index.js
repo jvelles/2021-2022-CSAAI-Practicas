@@ -22,7 +22,7 @@ const range_value_B = document.getElementById('range_value_B');
 const gray = document.getElementById('gray');
 const original = document.getElementById('original');
 const especular = document.getElementById('especular');
-const bocaabajo = document.getElementById('bocaabajo');
+const babajo = document.getElementById('babajo');
 const negativo = document.getElementById('negativo');
 
 
@@ -113,7 +113,7 @@ especular.onclick =() => {
       ctx.drawImage(img, 0, 0);
 }
 
-bocaabajo.onclick = () =>{
+babajo.onclick = () =>{
   ctx.drawImage(img, 0,0);
   ctx.translate(0,img.height);
   ctx.scale(1,-1);
