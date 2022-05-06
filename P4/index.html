@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Procesado de imágenes</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="fuentes">
+      <img id = "imagen" src="bunny.jpg" width="100px" >
+      <img id = "imagen" src="bunny1.jpg" width="100px">
+      <img id = "imagen" src="bunny2.jpg" width="100px">
+    </div>
+    <div id="botones">
+      <button id = "img1">IMAGEN 1</button>
+      <button id = "img2">IMAGEN 2</button>
+      <button id = "img3">IMAGEN 3</button>
+    </div>
+    <div id="content">
+        <div id="left">
+          <p>IMAGEN ORIGINAL</p>
+          <img src="bunny.jpg" id="imagesrc">
+        </div>
+        <div id="right">
+          <p>IMAGEN MANIPULADA</p>
+          <canvas id="canvas"></canvas>
+          <br>
+        </div>
+    </div>
+    <div id="deslizador">
+      <br>
+      <button id = "original">ORIGINAL</button>
+      <button id = "gray">GRAY</button>
+      <button id = "especular">ESPECULAR</button>
+      <button id = "babajo">B.ABAJO</button>
+      <button id = "negativo">NEGATIVO</button>
+
+      <br>
+      <span class ="barra">Establece el umbral de rojo:</span>
+      <input type="range" id="deslizador_R" min="0" max="255" value="255"/>
+      <p id="range_value_R">00</p>
+      <span class ="barra">Establece el umbral de verde:</span>
+      <input type="range" id="deslizador_G" min="0" max="255" value="255"/>
+      <p id="range_value_G">00</p>
+      <span class ="barra">Establece el umbral de azul:</span>
+      <input type="range" id="deslizador_B" min="0" max="255" value="255"/>
+      <p id="range_value_B">00</p>
+    </div>
+    <br><br>
+  </body>
+</html>
