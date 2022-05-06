@@ -10,9 +10,9 @@ const img2 = document.getElementById('img2');
 const img3 = document.getElementById('img3');
 
 //Deslizadores
-const des_R = document.getElementById('deslizador_R');
-const des_G = document.getElementById('deslizador_G');
-const des_B = document.getElementById('deslizador_B');
+const des_R = document.getElementById('des_R');
+const des_G = document.getElementById('des_G');
+const des_B = document.getElementById('des_B');
 
 //Valores de deslizadores
 const range_value_R = document.getElementById('range_value_R');
