@@ -30,7 +30,7 @@ body {
       color: black;
   }
   
-  #original, #gris {
+  #original, #gray {
       height: 30px;
       width: 100px;
       font-family: 'Calibri', cursive;
@@ -40,7 +40,7 @@ body {
       margin-bottom: 10px;
       margin-top: 45px;
   }
-  #espejo{
+  #especular{
     height: 30px;
     width: 100px;
     font-family: 'Calibri', cursive;
@@ -50,7 +50,7 @@ body {
     margin-bottom: 30px;
     margin-top: 20px;
   }
-  #voltear, #negativo{
+  #bocaabajo, #negativo{
     height: 30px;
     width: 100px;
     font-family: 'Calibri', cursive;
@@ -60,7 +60,9 @@ body {
     margin-bottom: 10px;
     margin-top: 40px;
   }
-
+  
+  
+  
   #deslizador{
     margin-left: 550px;
     margin-top: 250px;
